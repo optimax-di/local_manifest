@@ -2,7 +2,7 @@
 <manifest>
 
         <!-- Remote -->
-        <remote name="USERNAMEGIT" fetch="LINKGITHUB" />
+        <remote name="zacky93" fetch="https://github.com/zacky93" />
 
         <!-- Trees -->
         <project path="device/xiaomi/juice" name="device_xiaomi_juice" remote="USERNAMEGIT" revision="dot-test" clone-depth="1" />
