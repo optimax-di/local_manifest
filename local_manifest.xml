@@ -1,1 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
 
+        <!-- Remote -->
+        <remote name="USERNAMEGIT" fetch="LINKGITHUB" />
+
+        <!-- Trees -->
+        <project path="device/xiaomi/juice" name="device_xiaomi_juice" remote="USERNAMEGIT" revision="dot-test" clone-depth="1" />
+        <project path="vendor/xiaomi/juice" name="prebuilt_vendor_juice" remote="USERNAMEGIT" revision="11" clone-depth="1" />
+        <project path="kernel/xiaomi/juice" name="android_kernel_xiaomi_bengal" remote="USERNAMEGIT" revision="11.0" clone-depth="1" />
+        
+        <!-- Clang -->
+        <project path="prebuilts/clang/host/linux-x86/clang-gengkapak" name="GengKapak-clang" remote="USERNAMEGIT" revision="13" clone-depth="1" />
+
+</manifest>
