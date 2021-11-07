@@ -7,7 +7,7 @@
         <!-- Trees -->
         <project path="device/xiaomi/whyred" name="device_xiaomi_whyred" remote="zacky93" revision="dot" clone-depth="1" />
         <project path="vendor/xiaomi/whyred" name="vendor_xiaomi_whyred" remote="zacky93" revision="11" clone-depth="1" />
-        <project path="kernel/xiaomi/whyred" name="kernel_xiaomi_whyred" remote="zacky93" revision="11.0" clone-depth="1" />
+        <project path="kernel/xiaomi/whyred" name="android_kernel_xiaomi_whyred" remote="zacky93" revision="11.0" clone-depth="1" />
         
         <!-- Clang -->
         <project path="prebuilts/clang/host/linux-x86/clang-gengkapak" name="GengKapak-clang" remote="zacky93" revision="13" clone-depth="1" />
