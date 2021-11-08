@@ -3,14 +3,15 @@
 
         <!-- Remote -->
         <remote name="zacky93" fetch="https://github.com/zacky93" />
+        <remote name="mibengal-dev" fetch="https://github.com/MiBengal-Development" />
+        <remote name="gengkapak" fetch="https://github.com/GengKapak" />
 
         <!-- Trees -->
-        <project path="device/xiaomi/whyred" name="device_xiaomi_whyred" remote="zacky93" revision="dot" clone-depth="1" />        
-        <project path="kernel/xiaomi/sdm660" name="Whyred" remote="zacky93" revision="extended-eas"/>
-	<project path="vendor/xiaomi" name="vendor_xiaomi" remote="zacky93" revision="eleven"/>
-	<project path="vendor/MiuiCamera" name="vendor_MiuiCamera" remote="zacky93" revision="11.x"/>
+        <project path="device/xiaomi/juice" name="device_xiaomi_juice" remote="zacky93" revision="dot-test" clone-depth="1" />
+        <project path="vendor/xiaomi/juice" name="prebuilt_vendor_juice" remote="zacky93" revision="11" clone-depth="1" />
+        <project path="kernel/xiaomi/juice" name="android_kernel_xiaomi_bengal" remote="mibengal-dev" revision="11.0" clone-depth="1" />
         
         <!-- Clang -->
-        <project path="prebuilts/clang/host/linux-x86/clang-gengkapak" name="GengKapak-clang" remote="zacky93" revision="13" clone-depth="1" />
+        <project path="prebuilts/clang/host/linux-x86/clang-gengkapak" name="GengKapak-clang" remote="gengkapak" revision="13" clone-depth="1" />
 
 </manifest>
