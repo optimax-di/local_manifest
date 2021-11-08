@@ -5,7 +5,7 @@
         <remote name="zacky93" fetch="https://github.com/zacky93" />
 
         <!-- Trees -->
-        <project path="device/xiaomi/whyred" name="device_xiaomi_whyred" remote="zacky93" revision="11" clone-depth="1" />        
+        <project path="device/xiaomi/whyred" name="device_xiaomi_whyred" remote="zacky93" revision="dot" clone-depth="1" />        
         <project path="kernel/xiaomi/sdm660" name="Whyred" remote="zacky93" revision="extended-eas"/>
 	<project path="vendor/xiaomi" name="vendor_xiaomi" remote="zacky93" revision="eleven"/>
 	<project path="vendor/MiuiCamera" name="vendor_MiuiCamera" remote="zacky93" revision="11.x"/>
