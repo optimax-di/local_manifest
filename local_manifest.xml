@@ -8,7 +8,7 @@
          
 
         <!-- Trees -->
-        <project path="device/xiaomi/juice" name="device_xiaomi_juice" remote="zacky93" revision="nad" clone-depth="1" />
+        <project path="device/xiaomi/juice" name="device_xiaomi_juice" remote="zacky93" revision="dot" clone-depth="1" />
         <project path="vendor/xiaomi/juice" name="prebuilt_vendor_juice" remote="zacky93" revision="11" clone-depth="1" />       
         <project path="kernel/xiaomi/juice" name="kernel_xiaomi_citrus_sm6115" remote="gf" revision="rvc" clone-depth="1" />
       
