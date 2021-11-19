@@ -7,7 +7,7 @@
         <remote name="gengkapak" fetch="https://github.com/GengKapak" />
 
         <!-- Trees -->
-        <project path="device/xiaomi/juice" name="device_xiaomi_juice" remote="optimax-di" revision="eleven" clone-depth="1" />
+        <project path="device/xiaomi/juice" name="android_device_xiaomi_juice" remote="optimax-di" revision="eleven" clone-depth="1" />
         <project path="vendor/xiaomi/juice" name="prebuilt_vendor_juice" remote="optimax-di" revision="11" clone-depth="1" />
         <project path="kernel/xiaomi/juice" name="android_kernel_xiaomi_bengal" remote="mibengal-dev" revision="11.0" clone-depth="1" />
         
