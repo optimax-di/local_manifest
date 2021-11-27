@@ -21,6 +21,6 @@
         <project path="kernel/xiaomi/juice" name="kernel_xiaomi_citrus_sm6115" remote="gf" revision="rvc" clone-depth="1" />
         
         <!-- Clang -->
-        <project path="prebuilts/clang/host/linux-x86/clang-gengkapak" name="GengKapak-clang" remote="gengkapak" revision="13" clone-depth="1" />
+        <project path="prebuilts/clang/host/linux-x86/clang-gengkapak" name="GengKapak-clang" remote="gk" revision="13" clone-depth="1" />
 
 </manifest>
