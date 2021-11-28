@@ -3,14 +3,8 @@
 
         <!-- Remote -->
         <remote name="optimax-di" fetch="https://github.com/optimax-di" />
-      
-
-
-
-<remote name="gf"
-            fetch="https://github.com/greenforce-project" />
-  <remote name="gk"
-            fetch="https://github.com/GengKapak" />
+        <remote name="gf" fetch="https://github.com/greenforce-project" />
+        <remote name="gk" fetch="https://github.com/GengKapak" />
 
 
         <remote name="gengkapak" fetch="https://github.com/GengKapak" />
