@@ -10,11 +10,11 @@
         <remote name="gengkapak" fetch="https://github.com/GengKapak" />
 
         <!-- Trees -->
-        <project path="device/xiaomi/juice" name="dt_xiaomi_juice" remote="optimax-di" revision="dot11" clone-depth="1" />
+        <project path="device/xiaomi/juice" name="dt_xiaomi_juice" remote="optimax-di" revision="nad" clone-depth="1" />
         <project path="vendor/xiaomi/juice" name="prebuilt_vendor_juice" remote="optimax-di" revision="11" clone-depth="1" />
         <project path="kernel/xiaomi/juice" name="kernel_xiaomi_citrus_sm6115" remote="gf" revision="rvc" clone-depth="1" />
         
         <!-- Clang -->
-        <project path="prebuilts/clang/host/linux-x86/clang-gengkapak" name="GengKapak-clang" remote="gk" revision="12" clone-depth="1" />
+        <project path="prebuilts/clang/host/linux-x86/clang-gengkapak" name="GengKapak-clang" remote="gk" revision="14" clone-depth="1" />
 
 </manifest>
