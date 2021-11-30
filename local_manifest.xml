@@ -3,18 +3,14 @@
 
         <!-- Remote -->
         <remote name="optimax-di" fetch="https://github.com/optimax-di" />
-        <remote name="gf" fetch="https://github.com/greenforce-project" />
-        <remote name="gk" fetch="https://github.com/GengKapak" />
-
-
-        <remote name="gengkapak" fetch="https://github.com/GengKapak" />
+        <remote name="kdragon" fetch="https://github.com/kdrag0n" />
 
         <!-- Trees -->
         <project path="device/xiaomi/juice" name="dt_xiaomi_juice" remote="optimax-di" revision="nad" clone-depth="1" />
         <project path="vendor/xiaomi/juice" name="prebuilt_vendor_juice" remote="optimax-di" revision="11" clone-depth="1" />
         <project path="kernel/xiaomi/juice" name="kernel_xiaomi_citrus_sm6115" remote="gf" revision="rvc" clone-depth="1" />
         
-        <!-- Clang -->
-        <project path="prebuilts/clang/host/linux-x86/clang-gengkapak" name="GengKapak-clang" remote="gk" revision="14" clone-depth="1" />
+       <!-- Clang -->
+        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdragon" revision="master" clone-depth="1" />
 
 </manifest>
