@@ -3,13 +3,11 @@
 
         <!-- Remote -->
         <remote name="optimax-di" fetch="https://github.com/optimax-di" />
-        <remote name="indraadp" fetch="https://github.com/indraadp" />
-        <remote name="gengkapak" fetch="https://github.com/GengKapak" />
 
         <!-- Trees -->
         <project path="device/xiaomi/juice" name="dt_xiaomi_juice" remote="optimax-di" revision="dot" clone-depth="1" />
         <project path="vendor/xiaomi/juice" name="prebuilt_vendor_juice" remote="optimax-di" revision="11" clone-depth="1" />
-        <project path="kernel/xiaomi/juice" name="fury_bengal_kernel" remote="indraadp" revision="juice" clone-depth="1" />
+        <project path="kernel/xiaomi/juice" name="fury_bengal_kernel" remote="optimax-di" revision="juice" clone-depth="1" />
         
        <!-- Clang -->
         <project path="prebuilts/clang/host/linux-x86/clang-gengkapak" name="GengKapak-clang" remote="gengkapak" revision="12" clone-depth="1" />
